@@ -88,7 +88,8 @@ final_df = max_per_day.join(
 ).orderBy("submission_date")
 
 final_df.coalesce(1).write.mode("overwrite")\
-    .parquet("/Workspace/Users/enigofleming.xavier@datad.co/pyspark/data/contest_result.parquet")
+    .parquet("/Workspace/Users/enigofleming.xavier@datad.co/pyspark/data/result.parquet")
 
 
 final_df.display()
+ 
