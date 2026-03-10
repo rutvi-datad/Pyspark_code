@@ -32,4 +32,4 @@ result = max_hacker.join(consistent_hackers, "submission_date") \
 
 result.show()
 
-# result.write.parquet("D:/training/PySpark-git/output_parquet")
+# result.write.parquet("D:/training/PySpark-git/output_parquet").
